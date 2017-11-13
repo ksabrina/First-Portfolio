@@ -1,0 +1,195 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Nunito', sans-serif;
+}
+#about, #skills, #portfolio, #contact {
+  height: 800px;
+}
+/**** GRID ****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+.two-third-width {
+  width: 800px;
+  margin: 0 auto;
+  float: left;
+}
+.fourth-width {
+  width: 300px;
+  margin: 0 auto;
+  float: left;
+}
+.three-fourth-width {
+  width: 900px;
+  margin: 0 auto;
+  float: left;
+}
+
+/***** SECTION STYLES ****/
+
+/***** HEADER *****/
+
+header {
+  height:1000px;
+  background-color: #f7ecde;
+  overflow: auto;
+}
+header h1 {
+  font-family: 'Vast Shadow';
+  font-size: 30px;
+  font-weight: 700;
+  color: #BBC085;
+  padding: 40px 0;
+  text-transform: uppercase;
+}
+nav {
+  float: right;
+  padding: 60px 40px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #828282;
+  padding-left: 40px;
+  font-weight: bolder;
+}
+header h2 {
+  clear: both;
+  font-family: 'Nunito';
+  font-size: 55px;
+  color: #2b2b2b;
+}
+header h2 span {
+  color: #BBC085;
+}
+header img {
+  clear: both;
+  padding-left: 10px;
+}
+
+/***** ABOUT ****/
+#about .full-width {
+  padding: 80px 0;
+  height:1000px;
+}
+#about h2 {
+  font: 'Comfortaa';
+  font-size: 30px;
+  color: #2b2b2b;
+}
+#about p {
+  font-size: 20px;
+  color: #7F7F7F;
+  line-height: 35px;
+  padding-right: 50px;
+}
+#about img {
+  padding-bottom: 30px;
+}
+
+/***** SKILLS ****/
+#skills {
+  background-color: #f7ecde;
+  height: 1200px;
+}
+#skills .full-width {
+  padding: 80px 0;
+}
+#skills h2 {
+  font: 'Comfortaa';
+  font-size: 36px;
+  color: #2b2b2b;
+}
+#skills p {
+  font-size: 21px;
+  color: #7F7F7F;
+  line-height: 40px;
+  padding-right: 50px;
+}
+#skills img {
+  padding-bottom: 30px;
+  padding-top: 150px;
+}
+/**** PORTFOLIO ****/
+#portfolio .full-width {
+  padding: 115px 0;
+}
+#portfolio img {
+  padding-bottom: 30px;
+  align-items: center;
+}
+#portfolio {
+  text-align: center;
+  }
+#portfolio h3 {
+  font-size: 24px;
+  width: 200px;
+  margin: 0 auto;
+}
+#portfolio p {
+  font: 'Comfortaa';
+  font-size: 18px;
+  line-height: 150%;
+  color: #2b2b2b;
+  padding: 0 35px;
+}
+
+/**** CONTACT ****/
+#contact {
+  background-color: #f7ecde;
+}
+#contact .full-width {
+  padding: 110px 0;
+}
+#contact h2 {
+  font: 'Nunito';
+  font-size: 24px;
+  font-weight: bold;
+}
+#email-header {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 5px 0;
+}
+#socialmedia-header {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+#envelope {
+  padding: 0 10px 0 115px;
+  float: left;
+}
+#contact a {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #BBC085;
+  text-decoration: none;
+}
+#contact ul {
+  list-style: none;
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul img {
+  padding-right: 48px;
+}
